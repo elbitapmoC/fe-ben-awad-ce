@@ -1,11 +1,8 @@
-import { useState } from "react";
 import Head from "next/head";
 import Footer from "../components/Footer";
-import InCommon from "../components/InCommon";
+import PhaseOne from "../components/PhaseOne";
 
 export default function Home() {
-  const [count, setCount] = useState(1);
-
   return (
     <div className="p-4">
       <style jsx>{`
@@ -25,10 +22,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="main">
-        <InCommon
-          title="Do We Have Anything In Common?"
-          description="Checks both arrays, returns true if they have an element has a shared value."
-        />
+        <PhaseOne />
       </div>
       <Footer />
     </div>
