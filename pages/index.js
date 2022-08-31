@@ -2,7 +2,8 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 // import PhaseOne from "../components/PhaseOne";
 // import PhaseTwo from "../components/PhaseTwo";
-import PhaseThree from "../components/PhaseThree";
+// import PhaseThree from "../components/PhaseThree";
+import PhaseFour from "../components/PhaseFour";
 
 export default function Home() {
   return (
@@ -26,7 +27,8 @@ export default function Home() {
       <div className="main">
         {/* <PhaseOne /> */}
         {/* <PhaseTwo /> */}
-        <PhaseThree />
+        {/* <PhaseThree /> */}
+        <PhaseFour />
       </div>
       <Footer />
     </div>
