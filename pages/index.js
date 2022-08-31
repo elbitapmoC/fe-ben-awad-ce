@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 // import PhaseOne from "../components/PhaseOne";
-import PhaseTwo from "../components/PhaseTwo";
+// import PhaseTwo from "../components/PhaseTwo";
+import PhaseThree from "../components/PhaseThree";
 
 export default function Home() {
   return (
@@ -24,7 +25,8 @@ export default function Home() {
       </Head>
       <div className="main">
         {/* <PhaseOne /> */}
-        <PhaseTwo />
+        {/* <PhaseTwo /> */}
+        <PhaseThree />
       </div>
       <Footer />
     </div>

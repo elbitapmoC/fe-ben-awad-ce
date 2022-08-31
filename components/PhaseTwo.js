@@ -41,7 +41,7 @@ const PhaseTwo = () => {
 
   useEffect(() => {
     fetchAndLogAsyncAwait() // make sure to catch any error
-      .catch(console.error);
+      .catch(console.error("🤧 The C19 Bug is worse than this bug."));
   }, []);
   return (
     <>
