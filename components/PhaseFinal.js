@@ -15,7 +15,7 @@ const PhaseFinal = () => {
       );
 
       const results = await response.json();
-
+      if (results === undefined) return;
       // Appends NEW data to old data.
       const newUserInfo = [...users, ...results.results];
       setUsers(newUserInfo);
