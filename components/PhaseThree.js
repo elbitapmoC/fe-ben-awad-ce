@@ -29,8 +29,8 @@ const PhaseThree = () => {
   return (
     <>
       <h1 className="mb-12">PhaseThree | Outputting User Data</h1>
-      {users.results.map((user, i) => (
-        <DisplayUsers key={i} user={user} />
+      {users.results.map((user, idx) => (
+        <DisplayUsers key={idx} user={user} />
       ))}
     </>
   );

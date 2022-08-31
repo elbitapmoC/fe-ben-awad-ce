@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 // import PhaseOne from "../components/PhaseOne";
 // import PhaseTwo from "../components/PhaseTwo";
 // import PhaseThree from "../components/PhaseThree";
-import PhaseFour from "../components/PhaseFour";
+import PhaseFinal from "../components/PhaseFinal";
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
         {/* <PhaseOne /> */}
         {/* <PhaseTwo /> */}
         {/* <PhaseThree /> */}
-        <PhaseFour />
+        <PhaseFinal />
       </div>
       <Footer />
     </div>

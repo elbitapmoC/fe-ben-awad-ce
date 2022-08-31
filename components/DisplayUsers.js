@@ -3,7 +3,7 @@ import React from "react";
 const DisplayUsers = ({ user }) => {
   const { name, picture } = user;
   return (
-    <li className="list-none flex-col">
+    <li className="list-none flex-col mb-12">
       <img
         className="m-auto mb-4"
         src={picture?.large}
