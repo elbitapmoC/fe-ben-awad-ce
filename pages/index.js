@@ -25,9 +25,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="main">
-        {/* <PhaseOne /> */}
+        {/* Button Increment & Decrement */}
+        {/* <PhaseOne />   */}
+        {/* Display as a string the info sent in from API */}
         {/* <PhaseTwo /> */}
+        {/* Loads in a random user via API */}
         {/* <PhaseThree /> */}
+        {/* Loads in an initial random user, click button to add new users and append to page. */}
         <PhaseFinal />
       </div>
       <Footer />
