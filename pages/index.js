@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
-// import PhaseOne from "../components/PhaseOne";
-// import PhaseTwo from "../components/PhaseTwo";
-// import PhaseThree from "../components/PhaseThree";
+import PhaseOne from "../components/PhaseOne";
+import PhaseTwo from "../components/PhaseTwo";
+import PhaseThree from "../components/PhaseThree";
 import PhaseFinal from "../components/PhaseFinal";
 
 export default function Home() {
